@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regatas RFEV</title>
+    <title data-translate="title">Regatas RFEV</title>
+    <div class="language-selector">
+        <label for="language-select">Selecciona tu idioma:</label>
+        <select id="language-select">
+            <option value="es.regatas.json" selected>Español</option>
+            <option value="en.regatas.json">Inglés</option>
+        </select>
+    </div>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header>
-        <h1>Regatas 2023</h1>
+        <h1 data-translate="h1">Regatas 2023</h1>
         <img src="https://www.panoramanautico.com/app/uploads/2019/10/LaserRadialLaManga_191007_pp-9271-1218x528.jpg"
             alt="css centrar imagen">
     </header>
@@ -19,62 +26,65 @@
         <table class="content-table">
             <thead>
                 <tr>
-                    <th>Clase</th>
-                    <th>Nombre</th>
-                    <th>Fecha</th>
-                    <th>Ubicación</th>
+                    <th data-translate="th Clase">Clase</th>
+                    <th data-translate="th Nombre">Nombre</th>
+                    <th data-translate="th Fecha">Fecha</th>
+                    <th data-translate="th Ubicación">Ubicación</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>49er</td>
-                    <td>Lanzarote International Regatta</td>
-                    <td>19 febrero</td>
-                    <td>Real Club Náutico de Lanzarote</td>
+                    <td data-translate="td 49er">49er</td>
+                    <td data-translate="td Lanzarote International Regatta">Lanzarote International Regatta</td>
+                    <td data-translate="td 19 febrero">19 febrero</td>
+                    <td data-translate="td Real Club Náutico de Lanzarote">Real Club Náutico de Lanzarote</td>
                 </tr>
                 <tr>
-                    <td>Optimist</td>
-                    <td>33 International Vila de Palamós Optimist Trophy</td>
-                    <td>20 febrero</td>
-                    <td>Club Náutic Costa Brava</td>
+                    <td data-translate="td Optimist">Optimist</td>
+                    <td data-translate="td 33 International Vila de Palamós Optimist Trophy">33 International Vila de Palamós Optimist Trophy</td>
+                    <td data-translate="td 20 febrero">20 febrero</td>
+                    <td data-translate="td Club Náutic Costa Brava">Club Náutic Costa Brava</td>
                 </tr>
                 <tr>
-                    <td>29er</td>
-                    <td>MEDSAILING - Europa Cup 29er</td>
-                    <td>2 marzo</td>
-                    <td>Club Náutico El Balís</td>
+                    <td data-translate="td 29er">29er</td>
+                    <td data-translate="td MEDSAILING - Europa Cup 29er">MEDSAILING - Europa Cup 29er</td>
+                    <td data-translate="td 2 marzo">2 marzo</td>
+                    <td data-translate="td Club Náutico El Balís">Club Náutico El Balís</td>
                 </tr>
                 <tr>
-                    <td>Laser</td>
-                    <td>Campeonato de España Laser 4.7. 2023</td>
-                    <td>3 abril</td>
-                    <td>Real Club Náutico de la Coruña</td>
+                    <td data-translate="td Laser">Laser</td>
+                    <td data-translate="td Campeonato de España Laser 4.7. 2023">Campeonato de España Laser 4.7. 2023</td>
+                    <td data-translate="td 3 abril">3 abril</td>
+                    <td data-translate="td Real Club Náutico de la Coruña">Real Club Náutico de la Coruña</td>
                 </tr>
                 <tr>
-                    <td>420 y Vaurien</td>
-                    <td>World Championship</td>
-                    <td>5 mayo</td>
-                    <td>Royal Yatch Club Cape Town</td>
+                    <td data-translate="td 420 y Vaurien">420 y Vaurien</td>
+                    <td data-translate="td World Championship">World Championship</td>
+                    <td data-translate="td 5 mayo">5 mayo</td>
+                    <td data-translate="td Royal Yatch Club Cape Town">Royal Yatch Club Cape Town</td>
                 </tr>
                 <tr>
-                    <td>Optimist</td>
-                    <td>71 Trofeo Ciutat de Palma</td>
-                    <td>3 diciembre</td>
-                    <td>Real Club Náutico de Palma</td>
+                    <td data-translate="td Optimist">Optimist</td>
+                    <td data-translate="td 71 Trofeo Ciutat de Palma">71 Trofeo Ciutat de Palma</td>
+                    <td data-translate="td 3 diciembre">3 diciembre</td>
+                    <td data-translate="td Real Club Náutico de Palma">Real Club Náutico de Palma</td>
                 </tr>
             </tbody>
         </table>
     </main>
     <footer>
-        <h6>Para más información sobre las regatas de este año, acuda a la página web oficial de RFEV pulsando en el
+        <h6 data-translate="h6 texto de abajo">Para más información sobre las regatas de este año, acuda a la página web oficial de RFEV pulsando en el
             siguiente enlace:</h6>
         <div class="mas-informacion"><a href="https://www.rfev.es/default/regatas">RFEV</a></div>
-        <div class="botonespecial">
+        <div class="botonespecial" data-translate="botonespecial">
             <form method="get" class="centrado" action="./index.html">
                 <input type="submit" value="Volver al inicio">
             </form>
         </div>
     </footer>
 </body>
+
+<script src="./regatas.js"></script>
+<script src="./libs/bootstrap.js"></script>
 
 </html>

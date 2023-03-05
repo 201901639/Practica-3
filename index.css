@@ -127,10 +127,27 @@ input[type=submit] {
     cursor: pointer;
 }
 
-p,.centrado {
+p,
+.centrado {
     text-align: center;
 }
 
-.botonespecial{
+.botonespecial {
     justify-content: center;
+}
+
+/*SELECTOR DE IDIOMA*/
+.language-selector {
+    margin: 20px;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
 }
